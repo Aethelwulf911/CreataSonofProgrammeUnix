@@ -1,0 +1,2 @@
+# CreataSonofProgrammeUnix
+We want to create a C program that generates two codes (code1 and code2) for a given service, as explained in the following. The codes are generated in 2 modes: a. Automatically every 2 minutes (using the SIGALRM signal). b. At the request of the user to type the combination (Ctrl+c). The main program runs on a loop. On each request, it increments a sequential number that represents the request number and creates two threads.
